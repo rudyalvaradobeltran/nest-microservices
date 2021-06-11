@@ -1,0 +1,7 @@
+#node modules
+admin/node_modules
+main/node_modules
+
+#build
+admin/dist
+main/dist

@@ -1,0 +1,17 @@
+version: "2.4"
+    
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    hostname: nestAdmin
+    environment:
+      MYSQL_ROOT_PASSWORD: "nest"
+      MYSQL_USER: "nest"
+      MYSQL_DATABASE: "nestAdmin"
+      MYSQL_PASSWORD: "nest"
+volumes:
+  db_data: {}
