@@ -12,7 +12,7 @@ QUEUE_NAME: Nombre de la cola
 MYSQL_HOST, MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_DATABASE: Conexión a MySQL  
 MONGO_CONNECTION: Conexión a MongoDB  
 CORS_ORIGIN: Dirección de origen de aplicación front-end que se quiera usar  
-AUTO_LOAD_ENTITIES, SYNCHRONIZE: Generan nuevamente las tablas de MySQL al iniciar la apliación (setear false para producción)
+AUTO_LOAD_ENTITIES, SYNCHRONIZE: Generan nuevamente las tablas de MySQL al iniciar la aplicación (setear false para producción)
 
 Instalación:
 npm install (en ambas carpetas)
